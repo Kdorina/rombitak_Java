@@ -14,8 +14,8 @@ public class InputPanel extends JPanel  {
         this.label = new JLabel("InputPanel");
         this.field = new JTextField();
         this.setLayout(new BoxLayout(this, BoxLayout.LINE_AXIS));
-        this.setBorder(new EmptyBorder(50, 10, 50, 10));
-        this.label.setBorder(new EmptyBorder(10, 10, 10, 10));
+        this.setBorder(new EmptyBorder(10, 10, 10, 20));
+        this.label.setBorder(new EmptyBorder(5, 5, 10, 10));
         this.addComponent();
     }
     public void addComponent() {

@@ -4,18 +4,20 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 
 public class ButtonsPanel extends JPanel{
-    JButton calcButton;
-    JButton aButton;
+    public JButton calcButton;
+    public JButton aboutButton;
 
     public ButtonsPanel() {
-        this.calcButton = new JButton("Számít");
-        this.aButton = new JButton("Névjegy");
-        this.addComponents();
+        calcButton = new JButton("Számít");
+        aboutButton = new JButton("Névjegy");
+        addComponents();
     }
     public void addComponents() {
-        this.add(this.calcButton);
-        this.add(this.aButton);
+        add(this.calcButton);
+        add(this.aboutButton);
     }
+
+    
 
     
 }
