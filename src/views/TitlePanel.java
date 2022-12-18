@@ -12,10 +12,10 @@ public class TitlePanel extends JPanel {
     JLabel mainLabel;
 
     public TitlePanel() {
-        this.mainLabel = new JLabel("Paralelepipedon térfogata");        
+        this.mainLabel = new JLabel("rombitak");        
         this.mainLabel.setFont(new Font("Sans serif", Font.BOLD, 24));
         this.mainLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        this.mainLabel.setBorder(new EmptyBorder(10, 10, 5, 10));
+        this.mainLabel.setBorder(new EmptyBorder(10, 10, 10, 80));
 
         this.add(this.mainLabel);
     }
